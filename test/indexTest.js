@@ -5,7 +5,7 @@ describe('employees', function() {
     beforeEach(function () {
       for (const key in employee) {
         delete employee[key];
-      }
+      } 
 
       employee.name = 'Sam';
     });
